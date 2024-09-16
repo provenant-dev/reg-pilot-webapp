@@ -46,11 +46,11 @@ const ExtensionInfo: React.FC<IExtensionInfo> = ({
       spacing={2}
       sx={{ borderRight: "1px solid grey", padding: "8px" }}
     >
-      <Grid item xs={12}>
+      {/* <Grid item xs={12}>
         <Typography variant="body1" fontWeight="bold">
           {formatMessage({ id: "extInfo.heading" })}
         </Typography>
-      </Grid>
+      </Grid> */}
       <Grid
         item
         xs={12}
@@ -60,10 +60,10 @@ const ExtensionInfo: React.FC<IExtensionInfo> = ({
       >
         <Card elevation={2}>
           <CardContent>
-            <Typography variant="body1" fontWeight="bold">
+            {/* <Typography variant="body1" fontWeight="bold">
               {formatMessage({ id: "extInfo.config" })}
-            </Typography>
-            <Typography
+            </Typography> */}
+            {/* <Typography
               variant="body2"
               style={{ display: "flex", columnGap: "8px" }}
             >
@@ -73,7 +73,7 @@ const ExtensionInfo: React.FC<IExtensionInfo> = ({
               ) : (
                 <CancelOutlined color="error" fontSize="small" />
               )}
-            </Typography>
+            </Typography> */}
             <Typography
               variant="body2"
               style={{ display: "flex", columnGap: "8px" }}
@@ -110,7 +110,7 @@ const ExtensionInfo: React.FC<IExtensionInfo> = ({
             <>
               {extMode ? (
                 <>
-                  <Button
+                  {/* <Button
                     data-testid="login--configure--extn"
                     size="small"
                     variant="contained"
@@ -120,7 +120,7 @@ const ExtensionInfo: React.FC<IExtensionInfo> = ({
                     <Typography variant="body2" fontWeight="bold">
                       {formatMessage({ id: "cta.configureExtension" })}
                     </Typography>
-                  </Button>
+                  </Button> */}
                   <Button
                     data-testid="login--select--cred"
                     size="small"

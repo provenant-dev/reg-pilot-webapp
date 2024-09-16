@@ -67,19 +67,7 @@ const SignifyInfo: React.FC<ISignifyInfo> = ({ selectedId, signatureData }) => {
             justifyContent: "space-between",
           }}
         >
-          <Typography variant="body2">
-            {/* <strong>Credential:</strong> */}
-          </Typography>
-          <Box>
-            <Typography variant="body2">
-              <strong>{formatMessage({ id: "credential.showRaw" })}</strong>
-              <Switch
-                checked={showRaw}
-                onClick={() => setShowRaw(!showRaw)}
-                size="small"
-              />
-            </Typography>
-          </Box>
+
         </Box>
         <Grid container>
           {showRaw ? (
